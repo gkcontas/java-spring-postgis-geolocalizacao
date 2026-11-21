@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: postgis-geolocation
+  datasource:
+    url: jdbc:postgresql://localhost:5432/geo?reWriteBatchedInserts=true
+    username: geo
+    password: geo
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
